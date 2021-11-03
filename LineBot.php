@@ -16,7 +16,8 @@ $POST_HEADER = array('Content-Type: application/json', 'Authorization: Bearer ' 
 $request = file_get_contents('php://input');   // Get request content
 $events = json_decode($request, true);   // Decode JSON to Array
 
-
+//ทดสอบส่งข้อมความแล้ว ยังไม่ทดสอบการ follow
+//ยังไม่ทดสอบการส่งข้อความ ใน LineBotMessage
 // if ( sizeof($events['events']) > 0 ) {
 if (!is_null($events['events'])) {
 
