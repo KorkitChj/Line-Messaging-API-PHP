@@ -5,7 +5,7 @@ require_once('vendor/linecorp/line-bot-sdk/line-bot-sdk-tiny/LINEBotTiny.php');
 
 if(isset($_GET['DD'])){
 
-    $strAccessToken = "IQ+wQasFJKoCI8pwPEirOqIDtYEAWuUnHU2AKczJIaYtHGGqizcDfkZpleDLm8KnrPxJluEJ+RRtPuvQ+cpS7MxIx18RfgCRR0buzsrrhfVhhmd+sLAIRZEtZepz0aTcawtJYwXN1RLbEg0XeEyBbgdB04t89/1O/w1cDnyilFU=";
+    $strAccessToken = "your_access_token";
      
     $strUrl = "https://api.line.me/v2/bot/message/push";
      

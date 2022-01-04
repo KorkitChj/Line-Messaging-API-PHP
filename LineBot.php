@@ -7,8 +7,8 @@ require_once('vendor/linecorp/line-bot-sdk/line-bot-sdk-tiny/LINEBotTiny.php');
 
 $API_URL = 'https://api.line.me/v2/bot/message';
 
-$access_token = 'IQ+wQasFJKoCI8pwPEirOqIDtYEAWuUnHU2AKczJIaYtHGGqizcDfkZpleDLm8KnrPxJluEJ+RRtPuvQ+cpS7MxIx18RfgCRR0buzsrrhfVhhmd+sLAIRZEtZepz0aTcawtJYwXN1RLbEg0XeEyBbgdB04t89/1O/w1cDnyilFU=';
-$channelSecret = 'f13d348e9d9659c5a7196ad413cb4428';
+$access_token = 'your_access_token';
+$channelSecret = 'your_channel_secret';
 
 
 $POST_HEADER = array('Content-Type: application/json', 'Authorization: Bearer ' . $access_token);
